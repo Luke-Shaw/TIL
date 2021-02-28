@@ -1,0 +1,11 @@
+################################################################################
+temp <- seq(1,100,length.out=19)
+# function for printing the R input of a vector
+dput(temp)
+#>  c(1, 6.5, 12, 17.5, 23, 28.5, 34, 39.5, 45, 50.5, 56, 61.5, 67, 
+#     72.5, 78, 83.5, 89, 94.5, 100)
+
+################################################################################
+# copy from clipboard into data frame eg if copying from spreadsheet, but not 
+# exactly best practice
+df <- datapasta::df_paste()
